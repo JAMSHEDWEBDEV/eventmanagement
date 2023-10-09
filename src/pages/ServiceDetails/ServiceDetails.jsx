@@ -13,7 +13,7 @@ const ServiceDetails = () => {
     console.log(serviceDetails);
     return (
         <div>
-            <div className="hero bg-base-200">
+            <div className="hero bg-base-200 mt-5">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={serviceDetails.img} className=" rounded-lg shadow-2xl" />
                     <div>

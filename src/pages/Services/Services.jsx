@@ -9,7 +9,7 @@ const Services = ({ service }) => {
             <div>
                 <div className="card bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src={img} alt="pic_png" className="" />
+                        <img src={img} alt="pic_png" className="rounded" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">{name}</h2>
