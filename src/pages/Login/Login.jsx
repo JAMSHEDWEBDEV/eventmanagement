@@ -4,7 +4,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 import swal from 'sweetalert';
 
 const Login = () => {
-    const {signInUser} = useContext(AuthContext);
+    const {signInUser,googleSignIn} = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -13,10 +13,12 @@ const Login = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(email,password);
+
      signInUser(email,password)
      .then(result =>{
         if(result){
             swal("Success!", "You are successfully login here!", "success");
+            e.target.reset();
           }
         navigate(location?.state? location.state:'/');
      })
@@ -25,7 +27,17 @@ const Login = () => {
             swal("Oops!", "Your email and password does not match!", "Error");
           }
      })
+ 
+    }
 
+    const handleGoogle = () =>{
+        googleSignIn()
+        .then(result =>{
+            console.log(result.user)
+        })
+        .catch(error =>{
+            console.error(error)
+        });
     }
 
     return (
@@ -60,6 +72,10 @@ const Login = () => {
                             <p>New User ? Please <Link
                             to="/register"
                              className="text-xl text-green-500 font-bold">Registration</Link> </p>
+                        </div>
+                        {/* sign in with google  */}
+                        <div>
+                             <p>Sign In With <button onClick={handleGoogle} className="btn">Google</button> </p>
                         </div>
                     </div>
                 </div>

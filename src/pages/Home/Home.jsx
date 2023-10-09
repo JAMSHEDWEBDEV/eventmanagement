@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/Header/Banner/Banner";
 import Services from "../Services/Services";
 import About from "../About/About";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
 
@@ -24,6 +25,8 @@ const Home = () => {
             </div>
             {/* about page start  */}
             <About></About>
+            {/* footer part  */}
+            <Footer></Footer>
         </div>
     );
 };
