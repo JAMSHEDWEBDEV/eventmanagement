@@ -3,6 +3,7 @@ import Banner from "../../components/Header/Banner/Banner";
 import Services from "../Services/Services";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
 
@@ -25,6 +26,8 @@ const Home = () => {
             </div>
             {/* about page start  */}
             <About></About>
+            {/* contact part  */}
+            <Contact></Contact>
             {/* footer part  */}
             <Footer></Footer>
         </div>
