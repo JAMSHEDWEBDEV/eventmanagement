@@ -33,10 +33,15 @@ const Login = () => {
     const handleGoogle = () =>{
         googleSignIn()
         .then(result =>{
-            console.log(result.user)
+            if(result){
+                swal("Success!", "You are successfully login here!", "success");
+              }
+            navigate(location?.state? location.state:'/');
         })
         .catch(error =>{
-            console.error(error)
+            if(error){
+                swal("Oops!", "Your email and password does not match!", "Error");
+              }
         });
     }
 
