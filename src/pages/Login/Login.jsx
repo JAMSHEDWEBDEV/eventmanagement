@@ -38,8 +38,8 @@ const Login = () => {
               }
             navigate(location?.state? location.state:'/');
         })
-        .catch(error =>{
-            if(error){
+        .catch(Error =>{
+            if(Error){
                 swal("Oops!", "Your email and password does not match!", "Error");
               }
         });
