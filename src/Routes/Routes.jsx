@@ -8,11 +8,13 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import ServiceDetails from "../pages/ServiceDetails/ServiceDetails";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import PageNotFound from "../components/PageNotFound/PageNotFoud";
 
 const Routes = createBrowserRouter([
     {
         path:"/",
         element:<MainLayout></MainLayout>,
+        errorElement:<PageNotFound></PageNotFound>,
         children:[
             {
                 path:"/",
