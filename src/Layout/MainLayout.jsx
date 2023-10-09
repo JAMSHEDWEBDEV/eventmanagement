@@ -11,3 +11,5 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
+// bannaer image link: https://i.ibb.co/86BDC7g/banner-image.jpg

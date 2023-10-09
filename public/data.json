@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Residential Care",
+      "img": "https://i.ibb.co/sjk3PTC/service-image1.jpg",
+      "description": "This is the first product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    },
+    {
+      "name": "Physical Therapy",
+      "img": "https://i.ibb.co/1nwGQVT/service-image2.jpg",
+      "description": "This is the second product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    },
+    {
+      "name": "Assisted Living",
+      "img": "https://i.ibb.co/LtTW8hd/service-image3.jpg",
+      "description": "This is the third product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    },
+    {
+      "name": "Memory Care",
+      "img": "https://i.ibb.co/ChG4B35/service-image4.jpg",
+      "description": "This is the fourth product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    },
+    {
+      "name": "Nursing Care",
+      "img": "https://i.ibb.co/yVVVRCW/service-image8.jpg",
+      "description": "This is the fifth product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    },
+    {
+      "name": "Spiritual Pain",
+      "img": "https://i.ibb.co/X883z81/service-image6.jpg",
+      "description": "This is the sixth product description.",
+      "benefits": ["Benefit 1", "Benefit 2", "Benefit 3"],
+      "details_button": "View Details"
+    }
+  ]
+  
