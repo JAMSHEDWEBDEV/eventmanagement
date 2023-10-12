@@ -7,7 +7,7 @@ const Services = ({ service }) => {
     const {name,img,description,details_button} = service || {};
     return (
             <div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl" data-aos="zoom-in">
                     <figure className="px-10 pt-10">
                         <img src={img} alt="pic_png" className="rounded" />
                     </figure>

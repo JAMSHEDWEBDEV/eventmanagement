@@ -2,7 +2,7 @@
 const Footer = () => {
     return (
         <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-center mt-10 bg-gray-300 p-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-center mt-10 bg-gray-300 p-5" data-aos="zoom-in-down">
                 <div>
                     <h1 className="text-3xl font-bold mb-4">About</h1>
                     <p>HealthCare A trusted name for caring for someone. Seniors live their life in their own way here what they want.</p>

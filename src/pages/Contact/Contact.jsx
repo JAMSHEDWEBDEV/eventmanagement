@@ -8,7 +8,10 @@ const Contact = () => {
                 <p className='text-5xl font-bold'>Get In Touch</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10'>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-back"
+                data-aos-duration="1000">
                     <figure className="px-10 pt-10">
                         <h1 className='text-9xl'><AiOutlineMail /></h1>
                     </figure>
@@ -22,7 +25,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-back"
+                data-aos-duration="2000">
                     <figure className="px-10 pt-10">
                         <h1 className='text-9xl'><AiFillPhone /></h1>
                     </figure>
@@ -36,7 +42,10 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl"
+                data-aos="flip-left"
+                data-aos-easing="ease-in-back"
+                data-aos-duration="3000">
                     <figure className="px-10 pt-10">
                         <h1 className='text-9xl'><FaAddressCard /></h1>
                     </figure>
