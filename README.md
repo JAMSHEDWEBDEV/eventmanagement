@@ -8,7 +8,7 @@
   3. Users also have the option to log in using their google accounts if they prefer not to use an email and password.
   4. The details page of  each event is protected by private route. So, user can not directly view it. If the user wants to see it, they must register and log in.
 
-  ## Live link : https://elegant-elf-5406e9.netlify.app  
+  ## Live link : https://health-even-management.netlify.app  
 
   ## MCQ - Question - Answer is given below:
   1. answer: B.[variable name not correct that means greetign is not defined]
